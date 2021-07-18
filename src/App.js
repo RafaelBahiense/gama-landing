@@ -4,7 +4,8 @@ import WebFont from "webfontloader";
 
 import LandingPage from "./compoments/landing-page/LandingPage";
 
-import ResetCSS from "./global-styles/ResetCSS";
+import ResetCSS from "./styles/ResetCSS";
+import GlobalCSS from "./styles/GlobalCSS";
 
 export default function App() {
 
@@ -20,6 +21,7 @@ export default function App() {
   return (
     <>
       <ResetCSS />
+      <GlobalCSS />
       <LandingPage />
     </>
   );
